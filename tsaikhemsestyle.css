@@ -52,3 +52,11 @@ p{
    margin-right: 20px;
    border: 1px solid #BADC58;
 }
+@media (min-width: 320px) {
+	.div{
+		order: -1;
+	}
+@media (min-width: 320px) {
+	.ul{
+		order: -1;
+	}
