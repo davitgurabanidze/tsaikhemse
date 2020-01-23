@@ -64,6 +64,18 @@ nav {
 .div h1, p {
 	color: #FFF;
 }
+.div a{
+	color: #BADC58;
+	text-decoration: none;
+	text-transform: capitalize;
+	border:  1px solid #BADC58;
+	padding: 14px 82px;
+	border-radius: 10px;
+}
+.div a:hover{
+	background-color: #BADC58;
+		color: black;
+	}
 .pasta_h2 {
 	display: flex;
 	justify-content: center;
@@ -81,9 +93,23 @@ nav {
 	align-items: center;
 	text-align: center;
 }
+.menu_ul a{
+    color: #BADC58;
+	text-decoration: none;
+	text-transform: capitalize;
+	border:  1px solid #BADC58;
+	padding: 14px 82px;
+	border-radius: 10px;
+	}
+	.menu_ul a:hover{
+		background-color: #BADC58;
+		color: black;
+	}
+
 footer {
 	position: relative;
 }
+
 footer::before {
 	content: '';
 	display: block;
@@ -101,6 +127,7 @@ footer::before {
 .fb {
 	width: 10px;
 }
+
 #instagram {
 	width: 20px;
 }
@@ -121,7 +148,7 @@ footer::before {
 
 @media only screen and (max-width: 320px) {
 
-.ul{
+.ul {
 	display: none;
 }
 .main_image {
@@ -129,6 +156,4 @@ footer::before {
 }
 iframe{
 	width: 320px;
-}
-
 }
