@@ -30,12 +30,12 @@ nav {
 }
 .main_image {
 	position: absolute;
+	width: 100%;
+	z-index: -2;
 	top: 60px;
 	left: 0;
-	right: 0;
-	z-index: -2;
+	object-fit: cover;
 	height: calc(100vh - 60px);
-
 }
 
 .main_section{
