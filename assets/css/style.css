@@ -64,18 +64,34 @@ nav {
 .div h1, p {
 	color: #FFF;
 }
-.div a{
-	color: #BADC58;
-	text-decoration: none;
-	text-transform: capitalize;
-	border:  1px solid #BADC58;
-	padding: 14px 82px;
-	border-radius: 10px;
+.meti{
+    background: #BADC58;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 15px 46px;
+    margin-bottom: 93px;
 }
-.div a:hover{
-	background-color: #BADC58;
-		color: black;
-	}
+.meti:hover{
+    color: white;
+}
+.scroll{
+    color: #fff;
+    font-size: 10px;
+    width: 76px;
+    height: 43px;
+    position: absolute;
+    bottom: 112px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+ /* ისარი ქვემოთ */
+.scroll-down::after{
+    content: url('../images/down.png');
+    margin-top: 32px;
+}
+
 .pasta_h2 {
 	display: flex;
 	justify-content: center;
@@ -157,3 +173,7 @@ footer::before {
 iframe{
 	width: 320px;
 }
+
+
+
+
