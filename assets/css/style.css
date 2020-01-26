@@ -28,6 +28,7 @@ nav {
 .ul li :hover {
 	color:#BADC58;
 }
+
 .main_image {
 	position: absolute;
 	width: 100%;
@@ -100,14 +101,16 @@ nav {
 
 .menu_ul{
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap:  wrap;
 }
+
 .menu_ul li{
 	width: 308px;
-	display: flex;	
-	flex-direction: column;
+	display: flex;
+	flex-direction: column; 
 	align-items: center;
 	text-align: center;
+		
 }
 .menu_ul a{
     color: #BADC58;
@@ -117,10 +120,23 @@ nav {
 	padding: 14px 82px;
 	border-radius: 10px;
 	}
+
 	.menu_ul a:hover{
 		background-color: #BADC58;
 		color: black;
 	}
+
+.menu_ul{
+  border-radius: 20px;
+  box-shadow: 0 3px 6px 0 rgba(24, 24, 24, 0.06);
+}
+
+.menu_ul li:hover {
+
+  border-radius: 20px;
+  box-shadow:  0px 3px 6px 0px #707070;;
+  background-color: #ffffff;
+}
 
 footer {
 	position: relative;
