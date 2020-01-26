@@ -139,6 +139,20 @@ footer::before {
 	height: 100%;
 
 }
+address {
+	background-color: #FFF;
+	border: 1px solid #FFF;
+	width: 100%;
+	height: 60px;
+	border-radius: 20px;
+	text-align: center;
+	color: #F59A63;
+	padding:20px 250px 21px 250px;
+	font-size: 14px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
 
 .fb {
 	width: 10px;
@@ -164,6 +178,23 @@ footer::before {
 
 @media only screen and (max-width: 320px) {
 
+body {
+		width: calc(100% - 40px);
+	}
+	.div {
+		font-size: 20px;
+}
+.second_section::before {
+		height: 21px;
+		top: -20px;
+	}
+
+	.second_section::after {
+		height: 35px;
+		bottom: -35px;
+		z-index: 5;
+	}
+
 .ul {
 	display: none;
 }
@@ -173,7 +204,29 @@ footer::before {
 iframe{
 	width: 320px;
 }
+footer::before {
+		content: none;
+	}
 
+	address {
+		width: calc(100% - 20px);
+	}
+.ul {
+	display: block;
+}
+@media (min-width :600px) {
 
+	.div {
+		font-size: 35px;
 
+	}
+} 
 
+@media (min-width :1084px) {
+	.div {
+		font-size: 50px;
+
+		}
+		.ul{
+			display: none;
+		}
