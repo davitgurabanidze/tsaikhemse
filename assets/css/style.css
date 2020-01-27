@@ -127,6 +127,10 @@ nav {
 	}
 	.added{
 		background-color: grey;
+		display: block; 
+		color:#BADC58;
+		border: 1px solid #BADC58;
+	    border-radius: 10px;
 	}
 
 .menu_ul{
@@ -171,7 +175,7 @@ address {
 	padding-top: 20px;
 	box-sizing: border-box;
 	margin-bottom: 20px;
-}
+	}
 
 .fb {
 	width: 10px;
