@@ -87,7 +87,7 @@ nav {
     flex-direction: column;
 
 }
- /* ისარი ქვემოთ */
+ 
 .scroll-down::after{
     content: url('../images/down.png');
     margin-top: 32px;
